@@ -10,3 +10,9 @@ if a and b:
     print('expression is true')
 else:
     print('expression is false')
+
+
+print(id(x[0]) == id(y))
+
+print(id(x[0]))
+print(id(y))
